@@ -19,7 +19,7 @@ $ git clone https://github.com/MyUserIsGui/ReplyBot.git
 # crie o banco de dados replybot
 
 # Importe o banco de dados
-$ mysql replybot < db.sql
+$ mysql -u user -psenha replybot < db.sql
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd bot
